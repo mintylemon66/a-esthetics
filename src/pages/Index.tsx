@@ -1,14 +1,14 @@
 
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import DesignGallery from "@/components/DesignGallery";
+import ColorPaletteGallery from "@/components/ColorPaletteGallery";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <Header />
       <Hero />
-      <DesignGallery />
+      <ColorPaletteGallery />
     </div>
   );
 };

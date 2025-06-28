@@ -11,22 +11,22 @@ const Hero = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-7xl font-extralight mb-8 leading-tight">
-            <span className="luxury-text-gradient">Luxury</span>
+            <span className="luxury-text-gradient">Exquisite</span>
             <br />
-            <span className="text-foreground">Design Inspiration</span>
+            <span className="text-foreground">Color Palettes</span>
           </h1>
           
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            Immerse yourself in a world of premium design aesthetics. From sophisticated posters 
-            to elegant social media templates, discover inspiration that elevates your creative vision.
+            Discover the world's most beautiful color combinations. From nature's harmony 
+            to designer's vision, find the perfect palette that speaks to your creative soul.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <button className="px-8 py-4 luxury-gradient text-black font-medium rounded-2xl hover:scale-105 transition-transform duration-300">
-              Explore Gallery
+              Explore Palettes
             </button>
             <button className="px-8 py-4 glass-effect text-foreground rounded-2xl hover:bg-white/10 transition-colors duration-300">
-              View Collections
+              Browse by Mood
             </button>
           </div>
         </div>
