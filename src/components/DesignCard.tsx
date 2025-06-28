@@ -1,5 +1,6 @@
 
 import { useState } from "react";
+import { Palette } from "lucide-react";
 
 interface DesignCardProps {
   id: number;
